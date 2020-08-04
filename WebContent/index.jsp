@@ -7,6 +7,13 @@
 <title>Insert title here</title>
 </head>
 <body>
-
+	<%@ page import="java.util.Date" %> 
+	Today is: <%= new Date() %><hr>
+	
+	<%@ page errorPage="myerrorpage.jsp" %>  
+  	
+	<%-- <%@ taglib uri="http://www.javatpoint.com/tags" prefix="mytag" %>  
+  	<mytag:currentDate/>  
+  --%>
 </body>
 </html>
